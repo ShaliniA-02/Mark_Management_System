@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background: #4b1e0f;
+    color: white;
+    position: fixed;
+}
+
+.sidebar h2 {
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #733d2b;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 20px;
+    color: #ddd;
+    text-decoration: none;
+}
+
+.menu a:hover, .active {
+    background: #e65c2c;
+    color: white;
+}
+
+/* Main */
+.main {
+    margin-left: 230px;
+    padding: 20px;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+
+/* Forms */
+.form-box {
+    background: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: #e65c2c;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #cc4e23;
+}
+
+/* Table */
+table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #4b1e0f;
+    color: white;
+}
